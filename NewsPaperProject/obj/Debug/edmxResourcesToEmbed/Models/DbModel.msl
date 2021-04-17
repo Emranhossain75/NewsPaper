@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DemoNewModelStoreContainer" CdmEntityContainer="DemoNewEntities">
+    <EntitySetMapping Name="NavigationNames">
+      <EntityTypeMapping TypeName="DemoNewModel.NavigationName">
+        <MappingFragment StoreEntitySet="NavigationName">
+          <ScalarProperty Name="NavId" ColumnName="NavId" />
+          <ScalarProperty Name="CatagoryName" ColumnName="CatagoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
